@@ -5,7 +5,7 @@
 1 – Airflow Installation
  pip install 'apache-airflow==2.3.4'  --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.3.4/constraints-3.8.txt" 
 
-2 – First of all, Airflow needs a home directory where it stores all its settings, configurations. It is usually set to ~/airflow using the following command:
+2 – First of all, Airflow needs a home directory where it stores all its settings, configurations. It is usually set to /airflow using the following command:
  export AIRFLOW_HOME=~/airflow
 
 3 – Initializing the Airflow DB
