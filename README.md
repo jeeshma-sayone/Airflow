@@ -20,9 +20,16 @@
 
 5 – Start Webserver
   
-  airflow webserver --port 8080 -D
+  airflow webserver --port 8080
 
+6 – To start scheduler
+  
+  airflow scheduler
 
+# Note : 
+
+If the AIRFLOW_CONFIG environment variable is not set, it will always default to your home directory. You'll have to set it to something like this: AIRFLOW_CONFIG=$AIRFLOW_HOME/airflow.cfg
+To enable dags by default : Change dags_are_paused_at_creation in airflow.cfg to False. The default value is True, so your dags are paused at creation. And if you want to pause a single dag you can add "is_paused_upon_creation=True" in your dag 
 
 # Reference
 https://github.com/apache/airflow
