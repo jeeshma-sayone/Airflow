@@ -1,2 +1,4 @@
 /venv/
-/logs/
+/logs/scheduler/
+/logs/dag_processor_manager/
+/logs/dag_id=hello_auto_start/
