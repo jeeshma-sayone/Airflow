@@ -240,3 +240,24 @@
 [2022-09-20T17:51:51.944+0530] {logging_mixin.py:115} INFO - [2022-09-20T17:51:51.943+0530] {dag.py:2429} INFO - Sync 1 DAGs
 [2022-09-20T17:51:51.956+0530] {logging_mixin.py:115} INFO - [2022-09-20T17:51:51.956+0530] {dag.py:2977} INFO - Setting next_dagrun for hello_world to 2022-09-20T12:20:00+00:00, run_after=2022-09-20T12:21:00+00:00
 [2022-09-20T17:51:51.967+0530] {processor.py:161} INFO - Processing /home/sayone/This PC/SayOne Technologies/Works/airflow_new/Airflow/dags/hello_world.py took 0.051 seconds
+[2022-09-20T17:52:30.415+0530] {processor.py:153} INFO - Started process (PID=36258) to work on /home/sayone/This PC/SayOne Technologies/Works/airflow_new/Airflow/dags/hello_world.py
+[2022-09-20T17:52:30.418+0530] {processor.py:640} INFO - Processing file /home/sayone/This PC/SayOne Technologies/Works/airflow_new/Airflow/dags/hello_world.py for tasks to queue
+[2022-09-20T17:52:30.419+0530] {logging_mixin.py:115} INFO - [2022-09-20T17:52:30.418+0530] {dagbag.py:508} INFO - Filling up the DagBag from /home/sayone/This PC/SayOne Technologies/Works/airflow_new/Airflow/dags/hello_world.py
+[2022-09-20T17:52:30.426+0530] {processor.py:650} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/sayone/This PC/SayOne Technologies/Works/airflow_new/Airflow/dags/hello_world.py
+[2022-09-20T17:52:30.436+0530] {logging_mixin.py:115} INFO - [2022-09-20T17:52:30.435+0530] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-20T17:52:30.450+0530] {logging_mixin.py:115} INFO - [2022-09-20T17:52:30.450+0530] {dag.py:2977} INFO - Setting next_dagrun for hello_world to 2022-09-20T12:21:00+00:00, run_after=2022-09-20T12:22:00+00:00
+[2022-09-20T17:52:30.460+0530] {processor.py:161} INFO - Processing /home/sayone/This PC/SayOne Technologies/Works/airflow_new/Airflow/dags/hello_world.py took 0.049 seconds
+[2022-09-20T17:53:07.283+0530] {processor.py:153} INFO - Started process (PID=36398) to work on /home/sayone/This PC/SayOne Technologies/Works/airflow_new/Airflow/dags/hello_world.py
+[2022-09-20T17:53:07.284+0530] {processor.py:640} INFO - Processing file /home/sayone/This PC/SayOne Technologies/Works/airflow_new/Airflow/dags/hello_world.py for tasks to queue
+[2022-09-20T17:53:07.285+0530] {logging_mixin.py:115} INFO - [2022-09-20T17:53:07.285+0530] {dagbag.py:508} INFO - Filling up the DagBag from /home/sayone/This PC/SayOne Technologies/Works/airflow_new/Airflow/dags/hello_world.py
+[2022-09-20T17:53:07.293+0530] {processor.py:650} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/sayone/This PC/SayOne Technologies/Works/airflow_new/Airflow/dags/hello_world.py
+[2022-09-20T17:53:07.303+0530] {logging_mixin.py:115} INFO - [2022-09-20T17:53:07.302+0530] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-20T17:53:07.315+0530] {logging_mixin.py:115} INFO - [2022-09-20T17:53:07.315+0530] {dag.py:2977} INFO - Setting next_dagrun for hello_world to 2022-09-20T12:22:00+00:00, run_after=2022-09-20T12:23:00+00:00
+[2022-09-20T17:53:07.324+0530] {processor.py:161} INFO - Processing /home/sayone/This PC/SayOne Technologies/Works/airflow_new/Airflow/dags/hello_world.py took 0.043 seconds
+[2022-09-20T17:53:42.919+0530] {processor.py:153} INFO - Started process (PID=36457) to work on /home/sayone/This PC/SayOne Technologies/Works/airflow_new/Airflow/dags/hello_world.py
+[2022-09-20T17:53:42.921+0530] {processor.py:640} INFO - Processing file /home/sayone/This PC/SayOne Technologies/Works/airflow_new/Airflow/dags/hello_world.py for tasks to queue
+[2022-09-20T17:53:42.922+0530] {logging_mixin.py:115} INFO - [2022-09-20T17:53:42.922+0530] {dagbag.py:508} INFO - Filling up the DagBag from /home/sayone/This PC/SayOne Technologies/Works/airflow_new/Airflow/dags/hello_world.py
+[2022-09-20T17:53:42.934+0530] {processor.py:650} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/sayone/This PC/SayOne Technologies/Works/airflow_new/Airflow/dags/hello_world.py
+[2022-09-20T17:53:42.942+0530] {logging_mixin.py:115} INFO - [2022-09-20T17:53:42.942+0530] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-20T17:53:42.954+0530] {logging_mixin.py:115} INFO - [2022-09-20T17:53:42.954+0530] {dag.py:2977} INFO - Setting next_dagrun for hello_world to 2022-09-20T12:22:00+00:00, run_after=2022-09-20T12:23:00+00:00
+[2022-09-20T17:53:42.964+0530] {processor.py:161} INFO - Processing /home/sayone/This PC/SayOne Technologies/Works/airflow_new/Airflow/dags/hello_world.py took 0.047 seconds
